@@ -1,0 +1,24 @@
+<html xmlns:th="https://thymeleaf.org">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><h4>User Name: </h4></td>
+        <td><h4 th:text="${sInfo.firstName}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>User Name: </h4></td>
+        <td><h4 th:text="${sInfo.lastName}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>Email ID: </h4></td>
+        <td><h4 th:text="${sInfo.email}"></h4></td>
+    </tr>
+</table>
+</body>
+</html>
